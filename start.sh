@@ -52,4 +52,7 @@ if [ ! -f "$ANDROID_HOME/platform-tools/adb" ]; then
 fi
 export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
 
+# ********* npm cache *********
+npm config set cache "$HOME/sgoinfre/.npm-cache"
+
 cd "$HOME/sgoinfre/mobileModule00"
