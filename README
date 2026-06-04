@@ -1,0 +1,3 @@
+# To install required Javascript execution environment, node package manager and launch the project with expo:
+- source ./start.sh
+- npx expo start --clear --tunnel
